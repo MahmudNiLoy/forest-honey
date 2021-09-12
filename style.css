@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* NAVBAR-START */
+nav {
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    background: #144734;
+    color: #fff;
+    position: sticky;
+    top: 0px;
+    margin: auto;
+    padding-right: 60px;
+    z-index: 1;
+}
+nav .logo {
+    flex: 1;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 80px;
+    line-height: 60px;
+}
+nav  ul {
+    flex: 2;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: right;
+}
+nav ul li {
+    list-style: none;
+    line-height: 60px;
+}
+
+.btn-donate {
+    background: #29b315;
+    border: 0;
+    border-radius: 7px;
+    color: #ffffff;
+    font-size: 1rem;
+    width: 90px;
+    padding: 10px;
+    font-family: CircularStdMedium;
+}
+nav ul li a {
+    width: 30px;
+    padding: 3px 10px;
+    margin: 0 5px;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    text-decoration: none;
+}
+a.active, a:hover {
+    border: 1px solid white;
+    transition: 0.3s;
+}
+
+nav #icon {
+    color: #fff;
+    /* font-size: 32px; */
+    position: absolute;
+    /* line-height: 80px; */
+    cursor: pointer;
+    right: 40px;
+    top: 12px;
+    display: none;
+}
+
+  .bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  
+
+
+/* header */
+
+.header-bg {
+    background: url("image/milk-tea-GZpKVHIEjy4-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 600px;
+    padding: 60px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.header-title {
+    font-size: 3rem;
+    font-family: DomaineDisp-Regular;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+
+.header-subtitle {
+    font-family: CircularStd-Book;
+    color: #fff;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 2;
+    margin-top: 14px;
+}
+
+.btn-getstarted {
+    font-family: CircularStd-Book;
+    font-size: 18px;
+    width: 140px;
+    padding: 5px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 40px;
+    transition: all 0.5s;
+}
+.btn-getstarted:hover {
+    width: 150px;
+    background: #fff;
+    color: rgb(0, 0, 0);
+}
+
+
+/* <!-- Hight Quality Manuka Honey -- */
+
+.section2 {
+    width: 100%;
+    text-align: center;
+    padding-top: 8%;
+}
+
+.hq-title {
+    color: #154734; 
+    font-size: 1.7rem;
+    font-family: DomaineDisp-Semibold;
+    font-weight: bold;
+}
+
+.hq-subtitle {
+    padding-top: 20px;
+    color: #999999;
+    font-family: CircularStd-Book;
+}
+
+.section2 .row {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.colum {
+    flex-basis: 50%;
+    height: 400px;
+    position: relative;
+}
+
+
+.colum  .pm-honey-img1 {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 10%;
+}
+
+.pm-honey-img {
+    position: absolute;
+    left: 0;
+    opacity: 0.2;
+    width: auto;
+    height: auto;
+    z-index: -2;
+    -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+}
+
+.prem-text {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    text-align: left;
+}
+
+.prem-text .pm-title {
+    font-size: 24px;
+    font-family: DomaineDisp-Semibold;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.prem-text .pm-content {
+    color: #999999;
+    font-family: CircularStd-Book;
+    padding: 10 20 0 20;
+    text-align: left;
+}
+
+.btn-buynow {
+    background-color: #29B315;
+    font-family: CircularStd-Book;
+    color: #ffffff;
+    border: none;
+    margin-top: 30px;
+    padding: 12px;
+    width: 140px;
+}
+
+.colum .pm-leaf-img {
+    position: absolute;
+    left: 0;
+    top: 250px;
+    width: 220px;
+    height: 180px;
+    z-index: -1;
+}
+
+
+/* section3 */
+
+.section3 {
+    background-image: url('image/vivek-doshi-xZ5aUGcI-F0-unsplash.jpg');
+    width: 100vw;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    top: 50px;
+
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+#slider {
+    overflow: hidden;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#slider figure {
+    position: relative;
+    width: 400%;
+    left: 0;
+    animation: slider 15s infinite;
+}
+
+#slider figure img {
+    float: left;
+    width: 25%;
+    min-width: 900px;
+}
+
+
+
+@keyframes slider {
+    0% { left: 0;}
+    25% { left: 0;}
+    35% { left: -100%;}
+    45% { left: -100%;}
+    60% { left: -200%;}
+    80% { left: -200%;}
+    95% { left: -300%;}
+    100% { left: -300%;}
+
+}
+
+
+/* section4 */
+
+.section4 {
+    margin-top: 150px;
+}
+
+.manuka {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.manuka-title {
+    font-family: DomaineDisp-Regular;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 14px;
+}
+
+.manuka-subtitle {
+    color: #999999;
+    font-size: 1rem; 
+    font-family: CircularStd-Book;
+}
+
+.section4 .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 90%;
+}
+
+.section4 .row .col-1 {
+    direction: rtl;
+}
+
+.section4 .row .col-1, .section4 .row .col-3 {
+    flex-basis: 31%;
+    margin-left: 50px;
+}
+
+.section4 .row ul li {
+    width: 280px;
+    list-style: none;
+    padding-bottom: 40px;
+}
+
+.section4 .row ul li::before {
+    content: "\2022";
+    font-size: 10rem;
+    color: #29b315;
+    position: absolute;
+    margin: -50px;
+}
+
+.section4 .row ul li .seg-title {
+    font-size: 1.2rem;
+    color: #000;
+    line-height: 2;
+    font-family: CircularStd-Book;
+}
+
+.section4 .row ul li .seg-content {
+    font-size: 0.7rem;
+    color: #999999;
+}
+
+
+.section4 .row .col-2 {
+    flex-basis: 25%;
+    display: grid;
+    place-items: center;
+    margin: 0 100px;
+}
+
+.section4 .row .col-2 img {
+    width: 330px;
+    height: 450px;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #144734;
+    color: #ffffff;
+    text-align: center;
+    font-family: CircularStd-Book;
+    font-size: 11px;
+    padding: 15px;
+}
+

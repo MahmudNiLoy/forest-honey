@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/aa225aee15.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resp.css">
+
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+
+        $(document).ready(function () {
+            $('#icon').click(function () {
+                $('ul').toggleClass('show');
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <nav>
+        <label class="logo">forest maker honey</label>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">shop</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">contact us</a></li>
+            <li><button class="btn-donate">Donate</button></li>
+        </ul>
+
+        <!-- <label id="icon">
+            <i class="fas fa-bars"></i>
+        </label> -->
+
+        <div id="icon" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+    </nav>
+
+
+    <!-- Header -->
+
+    <div class="header-bg">
+        <p class="header-title">Restore Forests and Make Honey</p><br>
+        <p class="header-subtitle">Manuka Trees are need for Manuka Honey, Manuka Trees are <br
+                id="header-subtitle-br">the start of new forest</p>
+        <button class="btn-getstarted">Get Started</button>
+    </div>
+
+
+    <!-- Hight Quality Manuka Honey -->
+    <div class="section2">
+        <p class="hq-title">High Quality Manuka Honey</p>
+        <p class="hq-subtitle">Sourced form local bee-keepers and to meet<br>world-class standards</p>
+
+        <div class="row">
+            <div class="colum">
+                <img src="image/honey-img.png" class="pm-honey-img1">
+            </div>
+            <div class="colum">
+                <img src="image/honey-img.png" class="pm-honey-img">
+                <div class="prem-text">
+                    <p class="pm-title">Premium Manuka Honey</p>
+                    <p class="pm-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                        commodo
+                        viverra maecenas accumsan lacus vel facilisis.Risus commodo viverra maecenas sis.. </p>
+                    <button class="btn-buynow">BUY NOW</button>
+                </div>
+                <img src="image/leaf-img.png" class="pm-leaf-img">
+            </div>
+        </div>
+    </div>
+
+    <!-- section3 -->
+    <div class="section3">
+        <div class="container">
+            <div id="slider">
+                <figure>
+                    <img class="pic" src="image\carousel.png" alt="">
+                    <img class="pic" src="image\carousel.png" alt="">
+                    <img class="pic" src="image\carousel.png" alt="">
+                    <img class="pic" src="image\carousel.png" alt="">
+                </figure>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section4">
+        <div class="manuka">
+            <p class="manuka-title">Manuka trees are needed for manuka honey</p>
+            <p class="manuka-subtitle">Manuka trees are the start of a new forest. Sell the honey put the profits
+                into
+                planting<br>more Manuka trees make more honey and the cycle continues</p>
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <ul>
+                    <li>
+                        <span class="seg-title">Lorem Ipsum</span><br>
+                        <span class="seg-content">Lorem ipsum dolor sit amet, tur adipiscing elit, smod tempor
+                            incididunetna aliqua.comviverra maecenas accumsan lacus vel facilisis.</span>
+                    </li>
+                    <li>
+                        <span class="seg-title">Lorem Ipsum</span><br>
+                        <span class="seg-content">Lorem ipsum dolor sit amet, tur adipiscing elit, smod tempor
+                            incididunetna aliqua.comviverra maecenas accumsan lacus vel facilisis.</span>
+                    </li>
+                    <li>
+                        <span class="seg-title">Lorem Ipsum</span><br>
+                        <span class="seg-content">Lorem ipsum dolor sit amet, tur adipiscing elit, smod tempor
+                            incididunetna aliqua.comviverra maecenas accumsan lacus vel facilisis.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-2">
+                <img src="image/tree-img.png" class="manuka-tree">
+            </div>
+
+            <div class="col-3">
+                <ul>
+                    <li>
+                        <span class="seg-title">Lorem Ipsum</span><br>
+                        <span class="seg-content">Lorem ipsum dolor sit amet, tur adipiscing elit, smod tempor
+                            incididunetna aliqua.comviverra maecenas accumsan lacus vel facilisis.</span>
+                    </li>
+                    <li>
+                        <span class="seg-title">Lorem Ipsum</span><br>
+                        <span class="seg-content">Lorem ipsum dolor sit amet, tur adipiscing elit, smod tempor
+                            incididunetna aliqua.comviverra maecenas accumsan lacus vel facilisis.</span>
+                    </li>
+                    <li>
+                        <span class="seg-title">Lorem Ipsum</span><br>
+                        <span class="seg-content">Lorem ipsum dolor sit amet, tur adipiscing elit, smod tempor
+                            incididunetna aliqua.comviverra maecenas accumsan lacus vel facilisis.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <span>&copy 2019 Forest Maker Honey - All Rights Reserved</span>
+    </div>
+
+
+    <script src="resp.js"></script>
+</body>
+
+</html>
